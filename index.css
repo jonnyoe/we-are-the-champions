@@ -1,0 +1,89 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+img {
+    width: 90px;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 150%;
+}
+
+#noMessages {
+    color: #8b8b8b;
+}
+
+input {
+    width: 317px;
+    height: 118px;
+    background-color: #444059;
+    border: none;
+    border-radius: 8px;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    line-height: normal;
+    /* Reset line-height */
+    vertical-align: top;
+    overflow-wrap: break-word;
+}
+
+button {
+    margin: 13px;
+    padding: 13px;
+    width: 317px;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    background-color: #28A9F1;
+    display: block;
+}
+
+span {
+    color: #FFFFFF;
+}
+
+ul {
+    padding: 0;
+    /* Optionally, remove default margin */
+    margin: 0;
+}
+
+li {
+    width: 317px;
+    list-style: none;
+    background-color: white;
+    border: none;
+    margin: 4px 0;
+    padding: 15px;
+}
+
+textarea {
+    width: 317px;
+    height: 118px;
+    background-color: #444059;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 8px;
+    /* Add some padding for better text readability */
+    margin: 0;
+    line-height: 1.5;
+    /* Adjust line-height as needed */
+    resize: none;
+    /* Prevent resizing if desired */
+    overflow-wrap: break-word;
+    /* Allow text to wrap */
+    white-space: pre-wrap;
+    /* Maintain whitespace and wrap text */
+}
